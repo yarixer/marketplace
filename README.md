@@ -40,6 +40,9 @@ Production environment is designed around:
 - SSR for public pages
 - SPA-like private panels
 
+> [!IMPORTANT]
+> The frontend is currently intended for testing and demonstrating backend functionality.
+It should be treated as a demo interface and is not production-ready.
 ---
 
 ## Features
