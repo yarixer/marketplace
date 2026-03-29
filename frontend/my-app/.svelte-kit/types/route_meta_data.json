@@ -1,0 +1,136 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account": [
+		"src/routes/account/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account/general": [
+		"src/routes/account/general/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account/library": [
+		"src/routes/account/library/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account/library/download/[productId]": [
+		"src/routes/account/library/download/[productId]/+server.ts"
+	],
+	"/account/orders": [
+		"src/routes/account/orders/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account/purchase-history": [
+		"src/routes/account/purchase-history/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account/security": [
+		"src/routes/account/security/+page.server.ts",
+		"src/routes/account/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin": [
+		"src/routes/admin/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/moderation": [
+		"src/routes/admin/moderation/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/moderation/[revisionId]": [
+		"src/routes/admin/moderation/[revisionId]/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/products": [
+		"src/routes/admin/products/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/products/[productId]": [
+		"src/routes/admin/products/[productId]/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/users": [
+		"src/routes/admin/users/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/users/[userId]": [
+		"src/routes/admin/users/[userId]/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/wallet": [
+		"src/routes/admin/wallet/+page.server.ts",
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/auth/login": [
+		"src/routes/auth/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/auth/logout": [
+		"src/routes/auth/logout/+server.ts"
+	],
+	"/auth/register": [
+		"src/routes/auth/register/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/products": [
+		"src/routes/products/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/products/[slug]": [
+		"src/routes/products/[slug]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller": [
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/dashboard": [
+		"src/routes/seller/dashboard/+page.server.ts",
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/products": [
+		"src/routes/seller/products/+page.server.ts",
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/products/new": [
+		"src/routes/seller/products/new/+page.server.ts",
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/products/[productId]": [
+		"src/routes/seller/products/[productId]/+page.server.ts",
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/settings": [
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/seller/stats": [
+		"src/routes/seller/stats/+page.server.ts",
+		"src/routes/seller/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}

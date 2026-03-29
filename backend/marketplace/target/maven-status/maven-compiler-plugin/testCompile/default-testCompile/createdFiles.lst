@@ -1,0 +1,11 @@
+com\yarixer\marketplace\catalog\api\PublicCatalogControllerTest.class
+com\yarixer\marketplace\admin\api\AdminModerationControllerTest.class
+com\yarixer\marketplace\support\TestStorageConfig.class
+com\yarixer\marketplace\support\TestStorageConfig$InMemoryStorageService.class
+com\yarixer\marketplace\buyer\api\BuyerOrderControllerTest.class
+com\yarixer\marketplace\support\AbstractIntegrationTest.class
+com\yarixer\marketplace\wallet\api\WalletLedgerControllerTest.class
+com\yarixer\marketplace\auth\api\AuthControllerTest.class
+com\yarixer\marketplace\storage\api\StorageDownloadControllerTest.class
+com\yarixer\marketplace\ApplicationSmokeIT.class
+com\yarixer\marketplace\seller\api\SellerProductControllerTest.class

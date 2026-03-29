@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/marketplace?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${DB_USER:marketplace}
+    password: ${DB_PASSWORD:marketplace}
+
+logging:
+  level:
+    org.hibernate.SQL: info
+    org.hibernate.orm.jdbc.bind: info
+
+app:
+  storage:
+    endpoint: ${STORAGE_ENDPOINT:http://localhost:9000}
+    access-key: ${STORAGE_ACCESS_KEY:minio}
+    secret-key: ${STORAGE_SECRET_KEY:miniosecret}

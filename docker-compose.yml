@@ -1,0 +1,40 @@
+services:
+  backend:
+    container_name: marketplace-backend-test
+    image: marketplace-backend:0.1.0
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_URL: jdbc:mysql://host.docker.internal:3306/marketplace?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      DB_USER: marketplace
+      DB_PASSWORD: marketplace
+      JWT_SECRET: change-this-to-a-long-random-secret-at-least-32-bytes
+      CORS_ALLOWED_ORIGIN: http://localhost:5173 
+      STORAGE_ENDPOINT: http://host.docker.internal:9000
+      STORAGE_ACCESS_KEY: minio
+      STORAGE_SECRET_KEY: miniosecret
+      STORAGE_BUCKET: marketplace-assets
+      ACCESS_TOKEN_TTL: 15m
+      REFRESH_TOKEN_TTL: 30d
+      STORAGE_DOWNLOAD_URL_TTL: 15m
+      STORAGE_IMAGE_URL_TTL: 1h
+      JAVA_OPTS: -XX:MaxRAMPercentage=75 -XX:+UseG1GC -Dfile.encoding=UTF-8
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  frontend:
+    container_name: marketplace-frontend-test
+    image: marketplace-frontend:0.1.0
+    ports:
+      - "5173:5173"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 5173
+      ORIGIN: http://localhost:5173
+      BACKEND_BASE_URL: http://backend:8080
+    depends_on:
+      - backend
+    restart: unless-stopped
