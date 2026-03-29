@@ -78,6 +78,9 @@ It should be treated as a demo interface and is not production-ready.
 - sales statistics
 - wallet balance
 
+> [!TIP]
+> To open the seller panel, go to Account Settings → General and click “Become Seller”.
+
 ### Admin area
 - user management
 - product moderation
