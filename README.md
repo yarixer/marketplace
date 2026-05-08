@@ -7,7 +7,8 @@ The project is designed to run on **Amazon Web Services**, using **Amazon EC2** 
 Built as a fullstack web application with a Java/Spring Boot backend and a SvelteKit frontend. Public pages use SSR, while account, seller, and admin areas use a SPA-like experience.
 
 > [!NOTE]
-> ̶L̶i̶v̶e̶ ̶d̶e̶m̶o̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶t̶e̶r̶r̶a̶w̶o̶w̶.̶v̶i̶p̶/̶  no credits left
+> ̶L̶i̶v̶e̶ ̶d̶e̶m̶o̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶t̶e̶r̶r̶a̶w̶o̶w̶.̶v̶i̶p̶/̶
+> no AWS credits left. Check the '.github' folder.
 ---
 
 ## AWS Infrastructure
